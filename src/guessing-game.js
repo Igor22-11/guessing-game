@@ -12,11 +12,11 @@ class GuessingGame {
     }
 
     lower() {
-        this.max = this.guess();
+        this.max=this.mid;
     }
 
     greater() {
-        this.min = this.guess();
+        this.min=this.mid;
     }
 }
 
